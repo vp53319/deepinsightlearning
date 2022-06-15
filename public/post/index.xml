@@ -13,7 +13,8 @@
       <pubDate>Tue, 14 Jun 2022 15:31:05 -0700</pubDate>
       
       <guid>https://www.deepinsightlearning.com/blog/post/liner-regression-least-square-fit-in-colab/</guid>
-      <description>This is a tutorial of how to calculate linear regression or least square fit in Colab. It follows the steps in the MIT 18.02SC Least squares youtube video to find the answers to the slope and intercept point. At the end there is also a simple numpy fit method to calculate the same result.
+      <description>Testing github action 4th time.
+This is a tutorial of how to calculate linear regression or least square fit in Colab. It follows the steps in the MIT 18.02SC Least squares youtube video to find the answers to the slope and intercept point. At the end there is also a simple numpy fit method to calculate the same result.
 Click the link below to see Colab notebook:
 Linear Regression Least Square Fit Colab Notebook</description>
     </item>
