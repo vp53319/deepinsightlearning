@@ -19,6 +19,7 @@ jobs:
       - name: Hugo Build
         run: $HOME/hugo -v
       - name: Deploy to S3
+        if: github.ref == 'refs/heads/main'
         run: aws s3 sync public/ s3://www.deepinsightlearning.com/blog --acl=public-read --delete  && aws cloudfront create-invalidation --distribution-id E1UHYOQ5H958XZ --paths '/*'
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
