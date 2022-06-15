@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.deepinsightlearning.com/blog/</loc>
+    <lastmod>2022-06-14T15:31:05-07:00</lastmod>
+  </url><url>
+    <loc>https://www.deepinsightlearning.com/blog/post/liner-regression-least-square-fit-in-colab/</loc>
+    <lastmod>2022-06-14T15:31:05-07:00</lastmod>
+  </url><url>
+    <loc>https://www.deepinsightlearning.com/blog/post/</loc>
+    <lastmod>2022-06-14T15:31:05-07:00</lastmod>
+  </url><url>
+    <loc>https://www.deepinsightlearning.com/blog/post/core-python-the-conditional-if-statement/</loc>
+    <lastmod>2022-06-12T17:11:13-07:00</lastmod>
+  </url><url>
+    <loc>https://www.deepinsightlearning.com/blog/categories/</loc>
+  </url><url>
+    <loc>https://www.deepinsightlearning.com/blog/tags/</loc>
+  </url>
+</urlset>

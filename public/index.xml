@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DeepInSight</title>
+    <link>https://www.deepinsightlearning.com/blog/</link>
+    <description>Recent content on DeepInSight</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Jun 2022 15:31:05 -0700</lastBuildDate><atom:link href="https://www.deepinsightlearning.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Liner Regression Least Square Fit in Colab</title>
+      <link>https://www.deepinsightlearning.com/blog/post/liner-regression-least-square-fit-in-colab/</link>
+      <pubDate>Tue, 14 Jun 2022 15:31:05 -0700</pubDate>
+      
+      <guid>https://www.deepinsightlearning.com/blog/post/liner-regression-least-square-fit-in-colab/</guid>
+      <description>This is a tutorial of how to calculate linear regression or least square fit in Colab. It follows the steps in the MIT 18.02SC Least squares youtube video to find the answers to the slope and intercept point. At the end there is also a simple numpy fit method to calculate the same result.
+Click the link below to see Colab notebook:
+Linear Regression Least Square Fit Colab Notebook</description>
+    </item>
+    
+    <item>
+      <title>Core Python the Conditional if Statement</title>
+      <link>https://www.deepinsightlearning.com/blog/post/core-python-the-conditional-if-statement/</link>
+      <pubDate>Sun, 12 Jun 2022 17:11:13 -0700</pubDate>
+      
+      <guid>https://www.deepinsightlearning.com/blog/post/core-python-the-conditional-if-statement/</guid>
+      <description>The conditional if statement allows us to branch the flow of our code depending on the evaluation of the if condition. The if statement can also include the else or else if statement. The expression returns a boolean True or False. We end the if, else, or else if line with a colon. If the condition is false, Python will skip the if and execute the else statement.
+The if statement contains the usual logical operators from mathematics: the equal ==, not equal !</description>
+    </item>
+    
+  </channel>
+</rss>

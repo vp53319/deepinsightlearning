@@ -1,3 +1,45 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseurl = "https://www.deepinsightlearning.com/blog"
+# baseurl = "/"
+
+relativeURLs = true
+CanonifyURLs=true
+
+title = "DeepInSight"
+languageCode = "en-us"
+paginate = "10" # Number of posts per page
+theme = "hugo-mainroad-theme"
+# disqusShortname = "" # Enable comments by entering your Disqus shortname
+googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+
+enableEmoji = true
+
+[Author]
+  name = "DeepInSight"
+  bio = "The author is indeed make up of ordinary matter. Maybe he is also a successful blogger and a decent tennis player, but beyond that nobody knows!"
+  avatar = "img/deepinsight-logo.png"
+
+[Params]
+  subtitle = "Science, Technology, and Deep Learning" # Subtitle of your site
+  description = "This is a blog about science, technology, and deep learning." # Description of your site
+  opengraph = true
+  twitter_cards = false
+  readmore = false # Show "Read more" button in list if true
+  authorbox = true
+  post_navigation = true
+  post_meta = ["date", "categories"] # Order of post meta information
+
+#  mathjax = true # Enable MathJax
+#  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
+#  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+
+
+[Params.sidebar]
+  home = "right"   # Configure layout for home page
+  list = "right"   # Configure layout for list pages
+  single = "right" # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist"]
+
+[Params.widgets]
+  recent_num = 10 # Set the number of articles in the "Recent articles" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
