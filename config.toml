@@ -19,7 +19,7 @@ enableEmoji = true
   avatar = "img/deepinsight-logo.png"
 
 [Params]
-  subtitle = "Science, Technology, and Deep Learning" # Subtitle of your site
+  subtitle = "Science, Technology, Machine and Deep Learning" # Subtitle of your site
   description = "This is a blog about science, technology, and deep learning." # Description of your site
   opengraph = true
   twitter_cards = false
@@ -27,6 +27,9 @@ enableEmoji = true
   authorbox = true
   post_navigation = true
   post_meta = ["date", "categories"] # Order of post meta information
+  
+[Params.style.vars] 
+  highlightColor = "#2b58d5"
 
 #  mathjax = true # Enable MathJax
 #  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
