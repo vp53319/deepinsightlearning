@@ -11,7 +11,7 @@ V <sup>T</sup> now becomes a 4x1 (4 rows 1 column) column vector with the same o
 
 Right Click and open the link below in new tab to see Colab notebook:
 
-[Google Colab Notebook of Transpose Examples using Python Numpy and PyTorch libraries](https://colab.research.google.com/drive/1twWSeWpqJ71ARhZScozzo-AJvJdkQiTX?usp=sharing)
+[Google Colab Notebook of Transpose Examples Using Python Numpy and Pytorch Libraries](https://colab.research.google.com/drive/1twWSeWpqJ71ARhZScozzo-AJvJdkQiTX?usp=sharing)
 
 ![Colab Picture 1 of Transpose Operation](/img/transpose-01.jpg)
 ![Colab Picture 2 of Transpose Operation](/img/transpose-02.jpg)
