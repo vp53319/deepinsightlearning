@@ -9,6 +9,6 @@ This is a tutorial of how to calculate linear regression or least square fit in 
 
 ___
 
-Click the link below to see Colab notebook:
+Right Click and open the link below in new tab to see Colab notebook:
 
 [Linear Regression Least Square Fit Colab Notebook](https://colab.research.google.com/drive/1kcP16XSzNTPQjAnqk4CcPlHVFUo3W4zm?usp=sharing)
