@@ -12,7 +12,7 @@ V <sup>T</sup> now becomes a 4x1 (4 rows 1 column) column vector with the same o
 We can create vector and matrix by first importing the Python Numpy and PyTorch libraries. It is better to create a row vector using the double bracket. This is because it will give us a two dimensional array of 1 one row and n columns. When we do a transpose, it will then give us the correct dimension of n rows and 1 column.
 
 Below is the YouTube video showing examples of the transpose operation in Google Colab:
-{{< youtube aT1ewCKngUM >}} 
+{{< youtube 2PNbdVPrpfE >}} 
 
 Right Click and open the link below in new tab to see Colab notebook:
 
@@ -21,5 +21,8 @@ Right Click and open the link below in new tab to see Colab notebook:
 
 ![Colab Picture 1 of Transpose Operation](/img/transpose-01.jpg)
 ![Colab Picture 2 of Transpose Operation](/img/transpose-02.jpg)
+![Colab Picture 1 of Transpose Operation](/img/transpose-03.jpg)
+![Colab Picture 2 of Transpose Operation](/img/transpose-04.jpg)
+
 
 
