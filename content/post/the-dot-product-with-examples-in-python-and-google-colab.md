@@ -8,7 +8,7 @@ Scalar product or vector dot product is one of the basic operations of applied m
 As a simple example to illustratate, let consider the dot product of two vector: X = [1, -8, 10, 6], and Y = [6, -9, -1, 5]. X<sup>T</sup> is: \begin{bmatrix} 1 \cr -8 \cr 10 \cr 6 \end{bmatrix}
 
 
- Then the dot product is: $$ x^Ty = 1\times 6 + (-8)\times (-9) + 10\times (-1) + 6\times 5 = 98$$
+ Then the dot product is: $$ x^Ty = 1\times 6 + (-8)\times (-9) \\\ + 10\times (-1) + 6\times 5 = 98$$
  
  To calculate the dot product between vector X and vector Y, so we multiply each element from both vectors in order.
  we take 1, the first element of X, times 6, the first element of Y. Next we take -8, the 2nd element of X, times -9, the second element of Y. We repeat this multiplication process for the remainder. Then we sum them up. This result in 98 for our example above. Because of the algorithm, will always be a single, scalar number, and the dot product only exists between vectors of the same number of elements or matrices of the same dimension, both matrices have to be 3x4 for example. We will see in our Colab example that trying to find the dot product of two vectors of different elements will result in error.
@@ -33,6 +33,7 @@ and the matrix Y is
 \end{bmatrix}
 $$
 
-Then the dot product is: $$ x^Ty = (15\times 3 + 9\times 8 + (-2)\times (-17)) + ((-6)\times (-1) + (-5)\times 7 + 13\times (-6)) = 44$$
+Then the dot product is: $$ x^Ty = (15\times 3 + 9\times 8 + (-2)\times (-17))  \\\ + ((-6)\times (-1) + (-5)\times 7 + 13\times (-6)) = 44$$
+
 
 As we can see from both examples, the dot product will compute to a single number. We can have large vectors or matrices with many elements, we will always calculate the dot product to a single number. The other caveat is that the dot product is only defined between two matrices or two vectors that have exactly the same shape and and dimensions. In our examples both vetors have 4 elements, and both matrices are 3x2.
