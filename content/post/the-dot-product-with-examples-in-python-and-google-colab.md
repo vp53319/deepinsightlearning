@@ -13,7 +13,7 @@ As a simple example to illustratate, let consider the dot product of two vector:
  To calculate the dot product between vector X and vector Y, so we multiply each element from both vectors in order.
  we take 1, the first element of X, times 6, the first element of Y. Next, we take -8, the 2nd element of X, times -9, the second element of Y. We repeat this multiplication process for the remainder. Then we sum them up. This result in 98 for our example above. Because of the algorithm, will always be a single, scalar number, and the dot product only exists between vectors of the same number of elements or matrices of the same dimension, both matrices have to be 3x4 for example. We will see in our Colab example that trying to find the dot product of two vectors of different elements will result in error.
 
- A matrix is two dimensional with m rows and n columns. When it comes to matrix, there is a covolutional operation similar to the vector dot product. However, both matrices must have the same nxn dimension. Let's take a look at a example below of the "dot product" with two 3x3 matrices:
+ A matrix is two dimensional with m rows and n columns. When it comes to matrix, there is a covolutional operation similar to the vector dot product. However, both matrices must have the same nxn dimension. Let's take a look at the example below of the "dot product" with two 3x3 matrices:
 
  If the matrix X is 
 
@@ -38,6 +38,14 @@ $$
 Then the "dot product" is:  $$(15\times 3 + 9\times 8 + (-2)\times (-17))  \\\ + ((-6)\times (-1) + (-5)\times 7 + 13\times (-6)) \\\ + (1\times 14 + (-19)\times (-2) + (-4)\times 11) = 52$$
 
 
-In this operation, we just do element wise multiplication of two matrices as illustrated above then sum everything.   As we can see from both examples, this "dot product" will compute to a single number. No matter if we have large vectors or matrices with many elements, we will always calculate the dot product to a single number. The other caveat is that the dot product is only defined between two matrices or two vectors that have exactly the same shape and dimensions. In our examples both vectors have 4 elements, and both matrices are 3x3.
+In this operation, we just do element-wise multiplication of two matrices as illustrated above then sum everything. As we can see from both examples, this "dot product" will compute to a single number. No matter if we have large vectors or matrices with many elements, we will always calculate the dot product to a single number. The other caveat is that the dot product is only defined between two matrices or two vectors that have exactly the same shape and dimensions. In our examples both vectors have 4 elements, and both matrices are 3x3.
 
 One interpretation of the dot product is that it represents the similarity or commonality between two entities, a correlation or coefficient of covariance of X and Y in statistics for example. We can think of the correlation as just a quirky way of calculating the dot product. Either way, the unique number of the dot product reflects common characteristics between the two objects. Now the objects can be represented mathematically as vectors, matrices, or tensors. Then mathematically, the dot product a number that reflects the common ground between two mathematical objects in the set of numbers. In fact, the dot product is the backbone of calculations for many of the things we are already familiar with, even if the term dot product is new to us. For example, the role of the dot product is prominent in correlation and least square in statistics, Fourier transform in signal processing, convolution and matrix multiplication in deep learning, and quantum mechanics in physics, etc.
+
+Right Click and open the link below in new tab to see Colab notebook:
+
+[Google Colab Notebook of Dot Product Examples Using Python Numpy and Pytorch Libraries](https://colab.research.google.com/drive/1foo0dYkUcEfTgJLAcDiUHpk0GTnPHb-G?usp=sharing)
+
+
+![Colab Picture 1 of Transpose Operation](/img/dot-01.jpg)
+![Colab Picture 2 of Transpose Operation](/img/dot-02.jpg)
