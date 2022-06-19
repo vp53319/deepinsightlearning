@@ -42,6 +42,10 @@ In this operation, we just do element-wise multiplication of two matrices as ill
 
 One interpretation of the dot product is that it represents the similarity or commonality between two entities, a correlation or coefficient of covariance of X and Y in statistics for example. We can think of the correlation as just a quirky way of calculating the dot product. Either way, the unique number of the dot product reflects common characteristics between the two objects. Now the objects can be represented mathematically as vectors, matrices, or tensors. Then mathematically, the dot product a number that reflects the common ground between two mathematical objects in the set of numbers. In fact, the dot product is the backbone of calculations for many of the things we are already familiar with, even if the term dot product is new to us. For example, the role of the dot product is prominent in correlation and least square in statistics, Fourier transform in signal processing, convolution and matrix multiplication in deep learning, and quantum mechanics in physics, etc.
 
+Below is the YouTube video showing examples of the dot product in Google Colab:
+
+{{< youtube uhJkQ4NwFXg >}} 
+
 Right Click and open the link below in new tab to see Colab notebook:
 
 [Google Colab Notebook of Dot Product Examples Using Python Numpy and Pytorch Libraries](https://colab.research.google.com/drive/1foo0dYkUcEfTgJLAcDiUHpk0GTnPHb-G?usp=sharing)
