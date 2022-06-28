@@ -16,4 +16,4 @@ Below is the Colab notebook and video explantion of this exercise
 I also made a YouTube video discussing the same examples of the transpose operation in Google Colab: {{< youtube RhYefUqvWT0 >}} 
 
 
-![Colab Picture 1 of Transpose Operation](/img/virus-pattern.jpg)
+![Colab Picture of Virus Pattern](/img/virus-pattern.jpg)
