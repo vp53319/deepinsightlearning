@@ -17,7 +17,7 @@ in the second calculation right here i'm taking x and i multiply which is type t
 
 [Google Colab Notebook of Matrix Multiplication in Python](https://colab.research.google.com/drive/1bDW8pr0Thw6iEgNsBl6ldfNxwiXFVgL4?usp=sharing) . 
 
-Here is YouTube video of this article: {{< Fn2UOsxXHlc >}} 
+Here is YouTube video of this article: {{< youtube Fn2UOsxXHlc >}}  
 
 ![Colab Picture 1 of Matrix Multiplication](/img/matrix_mul_01.jpg)
 ![Colab Picture 2 of Matrix Multiplication](/img/matrix_mul_02.jpg)
